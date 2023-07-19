@@ -1,4 +1,10 @@
 # Logs
+
+node_modules/
+.env
+.idea
+.vscode
+
 logs
 *.log
 npm-debug.log*
