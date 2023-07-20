@@ -6,8 +6,6 @@ require("dotenv").config();
 
 // const { authRouter, notices } = require("./routes");
 
-const { Email } = require("./services");
-
 const app = express();
 
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
