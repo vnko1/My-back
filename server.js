@@ -6,8 +6,8 @@ mongoose
   .connect(process.env.PET_DB)
   .then(() => {
     console.log("Database connection successful");
-    app.listen(3000, async () => {
-      console.log("Server running. Use our API on port: 3000");
+    app.listen(process.env.PORT, async () => {
+      console.log(`Server running. Use our API on port: ${process.env.PORT}`);
     });
   })
   .catch((err) => {
