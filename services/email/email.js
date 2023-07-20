@@ -18,4 +18,4 @@ class Email {
   }
 }
 
-module.exports = Email;
+module.exports = { Email };

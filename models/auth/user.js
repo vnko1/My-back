@@ -6,4 +6,4 @@ const userSchema = new Schema({}, { versionKey: false, timestamps: true });
 
 const User = model("user", userSchema);
 
-module.exports = User;
+module.exports = { User };

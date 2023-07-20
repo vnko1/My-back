@@ -1,3 +1,4 @@
-const Email = require("./email/email");
+const { Email } = require("./email/email");
+const { Users } = require("./users/users");
 
-module.exports = { Email };
+module.exports = { Email, Users };

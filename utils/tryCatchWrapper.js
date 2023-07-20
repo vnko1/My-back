@@ -6,4 +6,4 @@ const tryCatchWrapper = (controller) => async (req, res, next) => {
   }
 };
 
-module.exports = tryCatchWrapper;
+module.exports = { tryCatchWrapper };

@@ -3,4 +3,4 @@ const schemaError = (error, doc, next) => {
   next();
 };
 
-module.exports = schemaError;
+module.exports = { schemaError };
